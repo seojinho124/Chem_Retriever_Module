@@ -28,7 +28,3 @@ def process_excel(file_path):
     output_file_path = 'chemical_info_output.xlsx'
     df.to_excel(output_file_path, index=False)
     print(f'Results saved to {output_file_path}')
-
-# Replace 'chemical_names.xlsx' with the path to your input Excel file
-input_file_path = 'Chemical_Name_Find.xlsx'
-process_excel(input_file_path)
