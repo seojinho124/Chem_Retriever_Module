@@ -1,0 +1,5 @@
+from chem_retriever import process_excel
+
+# Process an Excel file with chemical names
+input_file_path = 'Chemical_Name_Find.xlsx'
+process_excel(input_file_path)
